@@ -8,7 +8,15 @@
     <style>
         img.slide{
             height: 700px; 
+            object-fit: cover;
         }
+        @media (max-width: 768px) {
+            .carousel-inner .slide {
+            height: 200px;
+            object-fit: cover;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -96,8 +104,8 @@
       <div class="container" id="order">
         <h1 class="text-center mt-5">Order Your Foods Now</h1>
         <div class="row my-2">
-            <div class="col-md-4">
-                <div class="card text-center border-2 border-warning" style="width: 18rem; height: 25rem;">
+            <div class="col-md-4 col-sm-6 mb-4 px-2">
+                <div class="card mx-auto mb-3 text-center border-2 border-warning" style="width: 18rem; height: 25rem;">
                     <img src="images/dosa-6971361_1280.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Masala Dosa</h5>
@@ -107,8 +115,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card text-center border-2 border-warning" style="width: 18rem; height: 25rem;">
+            <div class="col-md-4 col-sm-6 mb-4 px-2">
+                <div class="card mx-auto mb-3 text-center border-2 border-warning" style="width: 18rem; height: 25rem;">
                     <img src="images/idly_1280.jpg" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Idly</h5>
@@ -118,8 +126,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card text-center border-2 border-warning" style="width: 18rem; height: 25rem;">
+            <div class="col-md-4 col-sm-6 mb-4 px-2">
+                <div class="card mx-auto mb-3 text-center border-2 border-warning" style="width: 18rem; height: 25rem;">
                     <img src="images/juice_1280.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Juice</h5>
@@ -131,8 +139,8 @@
             </div>
         </div>
         <div class="row my-3">
-            <div class="col-md-4">
-                <div class="card text-center border-2 border-warning" style="width: 18rem; height: 25rem;">
+            <div class="col-md-4 col-sm-6 mb-4 px-2">
+                <div class="card mx-auto mb-3 text-center border-2 border-warning" style="width: 18rem; height: 25rem;">
                     <img src="images/salad_640.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Salad</h5>
@@ -142,8 +150,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card text-center border-2 border-warning" style="width: 18rem; height: 25rem;">
+            <div class="col-md-4 col-sm-6 mb-4 px-2">
+                <div class="card mx-auto mb-3 text-center border-2 border-warning" style="width: 18rem; height: 25rem;">
                     <img src="images/sandwich-6806036_1280.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Sandwich</h5>
@@ -153,8 +161,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card text-center border-2 border-warning" style="width: 18rem; height: 25rem;">
+            <div class="col-md-4 col-sm-6 mb-4 px-2">
+                <div class="card mx-auto mb-3 text-center border-2 border-warning" style="width: 18rem; height: 25rem;">
                     <img src="images/shawarma-6063224_1280.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Shawarma</h5>
